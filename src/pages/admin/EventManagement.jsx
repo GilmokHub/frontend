@@ -5,7 +5,7 @@ import { getEvents, createEvent } from '../../api/events.js'
 const statusLabel = { OPEN: 'OPEN', DRAFT: 'DRAFT', CLOSED: 'CLOSED' }
 const statusClass = { OPEN: 'open', DRAFT: 'draft', CLOSED: 'closed' }
 
-// PolicyDefaults.java (api-repo) 와 동기화
+// PolicyDefaults.java (api) 와 동기화
 const POLICY_DEFAULT_LABEL = {
   admissionRps: 'Admission RPS',
   admissionConcurrency: 'Admission Concurrency',
